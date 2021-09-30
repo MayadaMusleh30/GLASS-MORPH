@@ -32,7 +32,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(./img/back.jpg);
+    /* background: url(./img/back.jpg); */
+    background-color: #555;
     background-size: cover;
 }
 
@@ -78,7 +79,7 @@ body {
 
 .container .card .content h2 {
     position: absolute;
-    top: -80px;
+    top: -50px;
     right: 30px;
     font-size: 8em;
     color: rgba(255, 255, 255, 0.151);
@@ -91,10 +92,8 @@ body {
     z-index: 1;
 }
 
-.container .card .content p {
-    font-size: 1em;
-    color: white;
-    padding: 10px;
+.container .card .content .shoe {
+    width: 100%;
 }
 
 .container .card .content a {
@@ -104,7 +103,7 @@ body {
     text-decoration: none;
     color: white;
     margin-top: 15px;
-    background: #9fdfd4;
+    background: #f80053;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
